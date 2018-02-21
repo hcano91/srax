@@ -1,0 +1,71 @@
+$FontPathOpenSans: "../fonts";
+@import '../../node_modules/npm-font-open-sans/open-sans.scss';
+$color-red: #ff1100;
+$color-white: #ffffff;
+html {
+    body {
+        font-family: 'Open Sans';
+    }
+    .description-panel {
+        margin-bottom: 40px;
+        margin-top: 40px;
+        p {
+            margin: 1em;
+            color: gray;
+        }
+    }
+    .carousel {
+        background-color: black;
+        .carousel-inner {
+            height: 500px;
+            img {
+                width: 100%;
+                opacity: 0.4;
+            }
+            .carousel-caption {
+                top: 90px;
+                width: 390px;
+            }
+        }
+    }
+    .selected-navigation {
+        color: $color-red;
+        border-bottom-color: $color-red;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+    }
+    .text-center {
+        text-align: center!important;
+        width: 100%;
+    }
+    .footer-bottom {
+        background-color: rgb(40, 40, 40);
+        color: $color-white;
+        padding: 40px;
+    }
+    .btn {
+        font-size: x-small;
+        border-radius: 2px;
+        &.btn-primary {
+            color: $color-white;
+            background-color: $color-red;
+            border-color: $color-red;
+        }
+    }
+    .left-border-red {
+        border-left-color: $color-red;
+        border-left-width: 5px;
+        border-left-style: solid;
+        padding-left: 10px;
+    }
+    .footer-item {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        h5 {
+            color: lightgray;
+        }
+        p {
+            color: gray;
+        }
+    }
+}

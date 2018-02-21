@@ -1,0 +1,19 @@
+{
+    "name": "sraxproject",
+    "version": "1.0.0",
+    "description": "A project for SRAX",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "scss-compile": "npm-sass ./assets/scss/main.scss > ./assets/css/main.css",
+        "watch": "npm run scss-compile"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.0.0",
+        "jquery": "^3.3.1",
+        "npm-font-open-sans": "^1.1.0",
+        "npm-sass": "^2.2.1"
+    }
+}
